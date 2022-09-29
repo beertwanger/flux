@@ -1,0 +1,14 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
+kind: Kustomization
+metadata:
+  name: Flux-apps-ex-4-dev
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  path: ./ex-4/overlays/dev
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: Flux-apps
+  timeout: 2m0s
+  validation: client
