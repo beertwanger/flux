@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./ex-4/overlays/dev
+  path: ./eks/ex-4/overlays/dev
   prune: true
   sourceRef:
     kind: GitRepository
