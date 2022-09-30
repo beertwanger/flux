@@ -4,7 +4,7 @@ metadata:
   name: Flux-apps
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 31s
   ref:
     branch: master
   url: https://github.com/beertwanger/Flux-apps
