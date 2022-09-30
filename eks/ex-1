@@ -2,10 +2,10 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
   name: ex1
-  namespace: default
+  namespace: flux-system
 spec:
   interval: 10m
-  targetNamespace: default
+  targetNamespace: student00
   sourceRef:
     kind: GitRepository
     name: flux-apps
