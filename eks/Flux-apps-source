@@ -2,9 +2,9 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: Flux-apps
-  namespace: flux-system
+  namespace: student00
 spec:
-  interval: 31s
+  interval: 30s
   ref:
     branch: master
   url: https://github.com/beertwanger/Flux-apps
